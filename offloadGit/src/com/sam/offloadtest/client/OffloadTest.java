@@ -68,7 +68,7 @@ import java.util.List;
  * Entry point classes define <code>onModuleLoad()</code>.
  */
 public class OffloadTest implements EntryPoint {
-	private int nTrials = 17;
+	private int nTrials = 17; //branch 3
     private String IDexperimentCode = "optimal_mTurk"; //which database to check for participant codes
     private String adminID = "Asam"; //WorkerID for admin access
     private String workerId = com.google.gwt.user.client.Window.Location.getParameter("workerId");
